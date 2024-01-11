@@ -1,0 +1,25 @@
+.rating {
+  width: 70%;
+  margin: 50px auto 0 auto;
+
+  .rating-table {
+    border-collapse: collapse;
+
+    .rating-table__title {
+      background-color: rgb(204, 59, 59);
+    }
+
+    .rating-table__title,
+    .rating-table__data {
+      padding: 5px;
+      border: 1px solid rgb(230, 230, 230);
+      text-align: center;
+    }
+
+    .rating-table__body {
+      .rating-table__row:nth-child(odd) {
+        background-color: rgb(36, 82, 143);
+      }
+    }
+  }
+}

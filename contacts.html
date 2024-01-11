@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/contacts.css" />
+    <script defer src="scripts/page-load-time.js"></script>
+    <script defer src="scripts/navbar.js"></script>
+    <script defer src="scripts/form.js"></script>
+    <title>Movies</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <a class="header__logo" href="index.html">Netflix</a>
+        <nav class="header__navbar">
+          <ul class="header__navbar-nav nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Фильмы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rating.html">Рейтинг</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__page-load-time"></div>
+    </header>
+    <main class="main">
+      <section class="container">
+        <pre>
+              _              _
+             | |------------| |
+          .-'| |            | |`-.
+        .'   | |            | |   `.
+     .-'      \ \          / /      `-.
+   .'        _.| |--------| |._        `.
+  /    -.  .'  | |        | |  `.  .-    \
+ /       `(    | |________| |    )'       \
+|          \  .i------------i.  /          |
+|        .-')/                \(`-.        |
+\    _.-'.-'/     ________     \`-.`-._    /
+ \.-'_.-'  /   .-' ______ `-.   \  `-._`-./\
+  `-'     /  .' .-' _   _`-. `.  \     `-' \\
+         | .' .' _ (3) (2) _`. `. |        //
+        / /  /  (4)  ___  (1)_\  \ \       \\
+        | | |  _   ,'   `.==' `| | |       //
+        | | | (5)  |.....| (O) | | |      //
+        | | |   _  `.___.' _   | | |      \\
+        | \  \ (6)  _   _ (9) /  / |      //
+        /  `. `.   (7) (8)  .' .'  \      \\
+       /     `. `-.______.-' .'     \     //
+      /        `-.________.-'        \ __//
+     |                                |--'
+     |================================|
+     "--------------------------------"
+        </pre>
+        <blockquote class="quote">
+          <p>
+            <sub>Стремитесь не к успеху,</sub>
+            <sup>а к ценностям, которые он дает</sup>
+          </p>
+          <cite>Альберт Эйнштейн</cite>
+        </blockquote>
+        <code>import django</code>
+        <div class="contact-list">
+          <div class="contact-card">
+            <h3 class="contact-card__title">Github</h3>
+            <a class="contact-card__link" href="https://github.com">Click</a>
+          </div>
+        </div>
+        <div class="contact-list">
+          <div class="contact-card">
+            <h3 class="contact-card__title">Github</h3>
+            <a class="contact-card__link" href="https://github.com">Click</a>
+          </div>
+        </div>
+        <form class="add-contact">
+          <input
+            class="add-contact__input"
+            type="text"
+            placeholder="Название"
+          />
+          <input class="add-contact__input" type="text" placeholder="Ссылка" />
+          <button class="add-contact__submit" type="submit">Добавить</button>
+        </form>
+      </section>
+      <aside class="aside">Наведись на меня</aside>
+    </main>
+    <footer class="footer">
+      <div class="footer__title">Netflix ©</div>
+      <div class="footer__contacts">
+        <a class="footer__link" href="contacts.html">Куда писать?</a>
+      </div>
+    </footer>
+  </body>
+</html>

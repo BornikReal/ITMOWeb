@@ -1,0 +1,89 @@
+.main {
+  width: 80%;
+  margin: 100px auto 0px auto;
+  padding-bottom: 150px;
+
+  .quote {
+    text-align: center;
+
+    p {
+      font-style: italic;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgb(204, 59, 59);
+    }
+
+    cite {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      color: rgb(174, 174, 174);
+    }
+  }
+
+  .contact-list {
+    .contact-card {
+      display: flex;
+      width: fit-content;
+      margin-top: 15px;
+      padding: 0px 5px 0px 5px;
+      border: 1px solid rgb(174, 174, 174);
+      border-top: none;
+      box-shadow: 1px 1px 0px 1px rgb(204, 59, 59);
+
+      .contact-card__title {
+        display: flex;
+        align-items: center;
+      }
+
+      .contact-card__link {
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        color: rgb(174, 174, 174);
+
+        &:hover {
+          color: rgb(204, 59, 59);
+        }
+      }
+    }
+  }
+
+  .aside {
+    float: right;
+    padding: 20px;
+    border: 1px solid rgb(204, 59, 59);
+
+    &:hover {
+      color: rgb(25, 25, 25);
+      background-color: rgb(204, 59, 59);
+    }
+  }
+}
+
+.add-contact {
+  margin-top: 30px;
+
+  .add-contact__input {
+    padding: 5px;
+    background: rgb(48, 44, 44);
+    outline: none;
+    border: 1px solid rgb(204, 59, 59);
+    color: rgb(230, 230, 230);
+  }
+
+  .add-contact__submit {
+    padding: 5px;
+    color: rgb(230, 230, 230);
+    background: transparent;
+    border: 1px solid rgb(204, 59, 59);
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(25, 25, 25);
+      background-color: rgb(204, 59, 59);
+    }
+  }
+}
